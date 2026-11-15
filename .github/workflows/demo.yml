@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: display hello dost
         run: echo "Hello dosto"
-  
+  pwd_job:  
+    runs-on: ubuntu-latest
+    steps:
+      - name: show current directory 
+        run: pwd
     
