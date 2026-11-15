@@ -1,0 +1,10 @@
+name: python-lint-ci
+on: 
+  push:
+    branches: main
+jobs:
+  lintjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clone code 
+        uses: actions/checkout@v6
