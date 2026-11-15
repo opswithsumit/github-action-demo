@@ -1,0 +1,10 @@
+name: demo-ci
+on: workflow_dispatch
+jobs:
+  demo_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: display hello dost
+        run: echo "Hello dosto"
+  
+    
