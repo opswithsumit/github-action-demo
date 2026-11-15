@@ -1,0 +1,8 @@
+name: hello-practice
+on: workflow_dispatch
+jobs:
+  practice_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: display input cmd
+        run: echo "please enter your input"
